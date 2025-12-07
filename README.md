@@ -8,6 +8,7 @@ A dead simple theme for the digital minimalist. Black & white with space to brea
 
 Einstein & Jobs wore the same thing every day. Now you can too.
 
-<img width="2240" height="1398" alt="preview" src="https://github.com/user-attachments/assets/2514bc15-6902-490f-aac0-034045be5317" />
+<img width="2240" height="1398" alt="preview" src="https://github.com/user-<img width="2240" height="1400" alt="screenshot-2025-12-08_01-17-58" src="https://github.com/user-attachments/assets/921b2abf-f008-4009-a416-0d07447560b6" />
+attachments/assets/2514bc15-6902-490f-aac0-034045be5317" />
 <img width="2240" height="1400" alt="screenshot-2025-11-28_13-34-26" src="https://github.com/user-attachments/assets/35d3bd75-2f60-4492-b3fd-4a6c9b217f13" />
 <img width="2240" height="1400" alt="screenshot-2025-11-28_13-35-50" src="https://github.com/user-attachments/assets/3d0bb9dc-5f50-42d1-8777-32de42786cef" />
