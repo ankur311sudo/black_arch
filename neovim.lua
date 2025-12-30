@@ -66,7 +66,7 @@ local M = {
 				-- AYU DARK PALETTE (PORTED)
 				-- ================================
 				local colors = {
-					bg = "#222222",
+					bg = "#000000",
 					fg = "#e6e1cf",
 					muted = "#666666",
 					dark = "#222222",
