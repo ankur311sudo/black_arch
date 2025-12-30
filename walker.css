@@ -9,15 +9,16 @@ window .box-wrapper {
   background: @background;
   padding: 12px;
   color: @text;
-  border: 1px solid @foreground;
-  border-radius: 1px;
+  border: 3px solid @foreground;
+  border-radius: 8px;
   margin: 0;
 }
 
 window .search-container {
-  background: @background;
-  /* border: 1px solid #525252; */
-  border-radius: 0px;
+  background: #1f1f1f;
+  border: 2px solid #222222;
+  color: #ffee99;
+  border-radius: 8px;
 }
 
 window .placeholder {
@@ -46,5 +47,8 @@ child:hover {
 
 child:selected {
   background: linear-gradient(90deg, alpha(@accent, 0.2), transparent 100%);
+  background: #222222;
+  border-radius: 8px;
   border-left: 0px solid @accent;
 }
+
