@@ -19,9 +19,3 @@ To install this theme, simply use the `omarchy-theme-install` command:
 ```sh
 omarchy-theme-install https://github.com/ankur311sudo/black_arch.git
 ```
-
-## Waybar (floatbar)
-
-<img width="2240" height="52" alt="screenshot-2025-12-29_23-21-13" src="https://github.com/user-attachments/assets/bf2fca05-439b-4c85-8bfa-45917a18dd97" />
-
-To get the waybar just copy the flotbar directory into your waybar config.
