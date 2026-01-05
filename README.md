@@ -2,7 +2,7 @@
 
 A dead simple theme for the digital minimalist. (Inspired by Felix theme)
 
-<img width="2240" height="1400" alt="screenshot-2026-01-05_13-27-33" src="https://github.com/user-attachments/assets/ec52017b-820f-4a14-b675-5f062b0bfae8" />
+<img width="2237" height="1397" alt="screenshot-2026-01-05_13-38-23" src="https://github.com/user-attachments/assets/af5a6f4b-0b93-4736-b2e9-78556e7b87ac" />
 <img width="2240" height="1400" alt="screenshot-2026-01-05_12-52-53" src="https://github.com/user-attachments/assets/dcfb30dc-db9a-4ef6-a239-e6bd490393ed" />
 <img width="2240" height="1400" alt="screenshot-2025-12-12_12-45-16" src="https://github.com/user-attachments/assets/d0b5e7fc-9b5c-4e3b-a0d8-71cd89a3c9b4" />
 <img width="2240" height="1400" alt="screenshot-2026-01-05_12-55-18" src="https://github.com/user-attachments/assets/af3e59da-f237-4101-a574-b2fb1086761d" />
