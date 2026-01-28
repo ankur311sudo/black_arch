@@ -1,70 +1,57 @@
 /**
-* @name Gray Pray
-* @version 1.0
-* @author Jerry
-* @description Спасибо тебе что установил эту тему! :3
+ * @name Michael Kaiser Blue Lock
+ * @author Benjaabety
+ * @version auto updates
+ * @description Theme was created in generator https://vsthemes.org/generator/
+ * @source https://vsthemes.org/en/skins/discord/32889-genshin-ganyu-3.html
+ * @authorLink https://vsthemes.org/user/Benjaabety/
 */
-@import url("https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@100;300;400;500;700&display=swap');
+@import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
+@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css');
 @import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+@import url('https://nyri4.github.io/Discolored/main.css');
 :root {
---background-image: url('https://get.wallhere.com/photo/anime-anime-girls-monochrome-selective-coloring-wallpaper-2027075.jpg');
---background-image-blur: 0px;
---background-image-size: cover;
---background-image-position: center;
---popout-modal-image: url('https://chitatel.by/storage/thumbs/70/h501_w315_70274139fbdf971c06a08107e5949b89.jpg');
---popout-modal-blur: 10px;
---popout-modal-size: cover;
---popout-modal-position: center;
---home-button-image: url('https://aniyuki.com/wp-content/uploads/2021/06/aniyuki-anime-avatars-gif-discord-9.gif');
---home-button-size: cover;
---home-button-position: center;
---serverlist-brightness: 0.4;
---left-brightness: 0.4;
---middle-brightness: 0.5;
---right-brightness: 0.3;
---popout-modal-brightness: 0;
---gradient-primary: 10,0,10; 
---gradient-secondary: 10,10,10;
---gradient-direction: 185deg;
---tint-colour: 255,51,159;
---tint-brightness: 0;
---window-padding: 13px;
---window-roundness: 25px;
---scrollbar-colour: #ffffff0d;
---link-colour: hsl(147, 95%, 9%);
---font: 'Whitney';
---update-notice-1: none;
---HSL-server-icon-size: 40px;
---HSL-server-spacing: 10px;
---rs-small-spacing: 1px;
---rs-medium-spacing: 1px;
---rs-large-spacing: 4px;
---rs-small-width: 2px;
---rs-medium-width: 4px;
---rs-large-width: 4px;
---rs-avatar-shape: 50%;
---rs-online-color: #43e49b;
---rs-idle-color: #f7b33f;
---rs-dnd-color: #fa1d1d;
---rs-offline-color: #9ca0a5;
---rs-streaming-color: #6826da;
---rs-invisible-color: #747f8d80;
+  --background-image: url('https://i.imgur.com/OHStaWu.png');
+  --background-image-blur: 0px;
+  --background-image-size: cover;
+  --background-image-position: center;
+  --popout-modal-image: transparent;
+  --popout-modal-blur: 0px;
+  --popout-modal-size: cover;
+  --popout-modal-position: center;
+  --home-button-image: url('https://i.imgur.com/rAzycBK.png');
+  --home-button-size: cover;
+  --home-button-position: center;
+  --serverlist-brightness: 0.6;
+  --left-brightness: 0.6;
+  --middle-brightness: 0.6;
+  --right-brightness: 0;
+  --popout-modal-brightness: 0.6;
+  --gradient-primary: 219, 219, 164;
+  --gradient-secondary: 14, 163, 232;
+--link-colour: #88f7ff;
+  --scrollbar-colour: rgba(255,255,255,0.05);
+  --gradient-direction: 320deg;
+  --font: Quicksand;
+  --window-padding: 0px;
+  --window-roundness: 0px;
+  --update-notice-1: none;
+  --columns: 2;
+  --guildgap: 2;
+  --aligndms: 0;
+  --rs-small-spacing: 0px;
+  --rs-medium-spacing: 0px;
+  --rs-large-spacing: 0px;
+  --rs-small-width: 2.5px;
+  --rs-medium-width: 2.5px;
+  --rs-large-width: 2px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #1ED883;
+  --rs-idle-color: #EE9A0E;
+  --rs-dnd-color: #F12222;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #6E29E4;
+  --rs-phone-visible: block;
 }
-.wordmark-2iDDfm.wordmarkWindows-1v0lYD {
-  width: auto;
-  height: 5px;
-  padding:  4px;
-  line-height: 29px;
-  font-size: 0.9em;
-  color: var(--text-normal); }
-.wordmark-2iDDfm.wordmarkWindows-1v0lYD:before, .wordmark-2iDDfm.wordmarkWindows-1v0lYD:after {
-    position: relative;
-    width: auto;
-    height: 5px; }
-.wordmark-2iDDfm.wordmarkWindows-1v0lYD:before {
-    content: "DISCORD";
-    font-weight: 300; }
-.wordmark-2iDDfm.wordmarkWindows-1v0lYD:after {
-    content: " 𝐛𝐲  𝐉𝐞𝐫𝐫𝐲"; }
-    .wordmark-2iDDfm.wordmarkWindows-1v0lYD svg {
-    display: none; }
