@@ -1,58 +1,57 @@
-    /**
-* @name Nervozeus v2.7 
-* @version 2.7
-* @description Mob Psycho
-* @credit: Senpai Nova 
-* @author ChEaTerNerVozA
-* @source https://vsthemes.org/en/user/ChEaTerNerVozA/
-* @Contact https://linktr.ee/cheaternervoza
+/**
+ * @name Michael Kaiser Blue Lock
+ * @author Benjaabety
+ * @version auto updates
+ * @description Theme was created in generator https://vsthemes.org/generator/
+ * @source https://vsthemes.org/en/skins/discord/32889-genshin-ganyu-3.html
+ * @authorLink https://vsthemes.org/user/Benjaabety/
 */
-@import url("https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@100;300;400;500;700&display=swap');
+@import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
+@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css');
 @import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
-@import url('https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css');
+@import url('https://nyri4.github.io/Discolored/main.css');
 :root {
---background-image: url('https://i.imgur.com/146wc7S.jpeg');
---background-image-blur: 0px;
---background-image-size: cover;
---background-image-position: center;
---popout-modal-image: url('https://cdn.wallpapersafari.com/12/20/h4lGan.jpg');
---popout-modal-blur: 10px;
---popout-modal-size: cover;
---popout-modal-position: center;
---home-button-image: url('https://thumbs.gfycat.com/AcrobaticVillainousGossamerwingedbutterfly-size_restricted.gif');
---home-button-size: cover;
---home-button-position: center;
---serverlist-brightness: 0.29;
---left-brightness: 0.6;
---middle-brightness: 0.29;
---right-brightness: 0.6;
---popout-modal-brightness: 0;
---gradient-primary: 32,32,32; 
---gradient-secondary: 76,0,153;
---gradient-direction: 185deg;
---tint-colour: 255,51,159;
---tint-brightness: 0;
---window-padding: 13px;
---window-roundness: 25px;
---scrollbar-colour: #ffffff0d;
---link-colour: #00b0f4;
---show-gift-gif-buttons: no-repeat;
---font: 'Whitney';
---update-notice-1: none;
---HSL-server-icon-size: 40px;
---HSL-server-spacing: 10px;
---rs-small-spacing: 1px;
---rs-medium-spacing: 1px;
---rs-large-spacing: 4px;
---rs-small-width: 2px;
---rs-medium-width: 4px;
---rs-large-width: 4px;
---rs-avatar-shape: 50%;
---rs-online-color: #43b581;
---rs-idle-color: #faa61a;
---rs-dnd-color: #f04747;
---rs-offline-color: #636b75;
---rs-streaming-color: #643da7;
---rs-invisible-color: #747f8d;
---rs-phone-visible: block;
+  --background-image: url('https://i.imgur.com/OHStaWu.png');
+  --background-image-blur: 0px;
+  --background-image-size: cover;
+  --background-image-position: center;
+  --popout-modal-image: transparent;
+  --popout-modal-blur: 0px;
+  --popout-modal-size: cover;
+  --popout-modal-position: center;
+  --home-button-image: url('https://i.imgur.com/rAzycBK.png');
+  --home-button-size: cover;
+  --home-button-position: center;
+  --serverlist-brightness: 0.6;
+  --left-brightness: 0.6;
+  --middle-brightness: 0.6;
+  --right-brightness: 0;
+  --popout-modal-brightness: 0.6;
+  --gradient-primary: 219, 219, 164;
+  --gradient-secondary: 14, 163, 232;
+--link-colour: #88f7ff;
+  --scrollbar-colour: rgba(255,255,255,0.05);
+  --gradient-direction: 320deg;
+  --font: Quicksand;
+  --window-padding: 0px;
+  --window-roundness: 0px;
+  --update-notice-1: none;
+  --columns: 2;
+  --guildgap: 2;
+  --aligndms: 0;
+  --rs-small-spacing: 0px;
+  --rs-medium-spacing: 0px;
+  --rs-large-spacing: 0px;
+  --rs-small-width: 2.5px;
+  --rs-medium-width: 2.5px;
+  --rs-large-width: 2px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #1ED883;
+  --rs-idle-color: #EE9A0E;
+  --rs-dnd-color: #F12222;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #6E29E4;
+  --rs-phone-visible: block;
 }
