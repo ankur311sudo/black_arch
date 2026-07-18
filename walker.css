@@ -3,7 +3,7 @@
 @define-color base #000000;
 @define-color border #e7e9ea;
 @define-color foreground #71767b;
-@define-color background #080808;
+@define-color background #000000;
 
 window .box-wrapper {
   background: @background;
@@ -16,7 +16,7 @@ window .box-wrapper {
 
 window .search-container {
   background: #1f1f1f;
-  border: 2px solid #222222;
+  border: 1px solid #222222;
   color: #ffee99;
   border-radius: 8px;
 }

@@ -3,7 +3,7 @@ gradient = 1
 gradient_count = 8
 
 # White aesthetic — soft minimal greys
-gradient_color_1 = "#A6A6A6"   # pure white
+gradient_color_1 = "#FFFFFF"   # pure white
 gradient_color_2 = "#F7F7F7"   # ultra-light grey
 gradient_color_3 = "#F0F0F0"
 gradient_color_4 = "#E8E8E8"

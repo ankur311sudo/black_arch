@@ -1,8 +1,8 @@
 # Core UI colors
 accent = "#989898"                 # Neutral accent (derived from color4 / blue)
 cursor = "#FFFFFF"                 # Kitty cursor color
-foreground = "#A6A6A6"             # Primary text color
-background = "#080808"             # Pure black background
+foreground = "#FFFFFF"             # Primary text color
+background = "#000000"             # Pure black background
 
 selection_foreground = "#000000"   # Selected text
 selection_background = "#FFFFFF"   # Selection background
