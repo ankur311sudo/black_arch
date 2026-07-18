@@ -33,20 +33,20 @@
 -- 	},
 -- }
 
-return {
-	{
-		"metalelf0/black-metal-theme-neovim",
-		lazy = false,
-		priority = 1000,
-		config = function()
-			require("black-metal").setup({
-				theme = "bathory", --(these are variations pick whatever you like)bathory, burzum, dark-funeral, darkthrone, emperor, gorgoroth, immortal, impaled-nazarene, khold, marduk, mayhem, nile, taake, thyrfing, venom, windir
-				variant = "nile",
-			})
-			require("black-metal").load()
-		end,
-	},
-}
+-- return {
+-- 	{
+-- 		"metalelf0/black-metal-theme-neovim",
+-- 		lazy = false,
+-- 		priority = 1000,
+-- 		config = function()
+-- 			require("black-metal").setup({
+-- 				theme = "bathory", --(these are variations pick whatever you like)bathory, burzum, dark-funeral, darkthrone, emperor, gorgoroth, immortal, impaled-nazarene, khold, marduk, mayhem, nile, taake, thyrfing, venom, windir
+-- 				variant = "nile",
+-- 			})
+-- 			require("black-metal").load()
+-- 		end,
+-- 	},
+-- }
 
 -- # ────────────────────────────────────────────────────────────
 -- # Omarchy black_arch Theme for neovim (You can configure this theme according to your taste)
@@ -210,3 +210,53 @@ return {
 -- }
 --
 -- return M
+
+local M = {}
+
+local variant_overrides = {
+	dark = {
+		bg = "#090909",
+		line = "#1a1a1a",
+	},
+	moss = {
+		bg = "#090d0e",
+		line = "#151d1e",
+	},
+}
+
+local function variant_for(name)
+	if name == "koda-dark" then
+		return "dark"
+	end
+
+	if name == "koda-moss" then
+		return "moss"
+	end
+
+	if name == "koda" then
+		return vim.o.background == "light" and "light" or "dark"
+	end
+
+	if name == "koda-light" then
+		return "light"
+	end
+
+	if name == "koda-glade" then
+		return "glade"
+	end
+
+	return nil
+end
+
+function M.setup(name)
+	local variant = variant_for(name)
+	if not variant then
+		return
+	end
+
+	require("koda").setup({
+		colors = variant_overrides[variant] or {},
+	})
+end
+
+return M

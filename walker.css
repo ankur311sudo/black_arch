@@ -3,7 +3,7 @@
 @define-color base #000000;
 @define-color border #e7e9ea;
 @define-color foreground #71767b;
-@define-color background #000000;
+@define-color background #080808;
 
 window .box-wrapper {
   background: @background;
