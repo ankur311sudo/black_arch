@@ -33,20 +33,20 @@
 -- 	},
 -- }
 
-return {
-	{
-		"metalelf0/black-metal-theme-neovim",
-		lazy = false,
-		priority = 1000,
-		config = function()
-			require("black-metal").setup({
-				theme = "bathory", --(these are variations pick whatever you like)bathory, burzum, dark-funeral, darkthrone, emperor, gorgoroth, immortal, impaled-nazarene, khold, marduk, mayhem, nile, taake, thyrfing, venom, windir
-				variant = "nile",
-			})
-			require("black-metal").load()
-		end,
-	},
-}
+-- return {
+-- 	{
+-- 		"metalelf0/black-metal-theme-neovim",
+-- 		lazy = false,
+-- 		priority = 1000,
+-- 		config = function()
+-- 			require("black-metal").setup({
+-- 				theme = "bathory", --(these are variations pick whatever you like)bathory, burzum, dark-funeral, darkthrone, emperor, gorgoroth, immortal, impaled-nazarene, khold, marduk, mayhem, nile, taake, thyrfing, venom, windir
+-- 				variant = "nile",
+-- 			})
+-- 			require("black-metal").load()
+-- 		end,
+-- 	},
+-- }
 
 -- # ────────────────────────────────────────────────────────────
 -- # Omarchy black_arch Theme for neovim (You can configure this theme according to your taste)
@@ -210,3 +210,22 @@ return {
 -- }
 --
 -- return M
+
+return {
+	{
+		"oskarnurm/koda.nvim",
+		lazy = false, -- load at startup
+		priority = 1000, -- load before other UI plugins
+		config = function()
+			-- require("koda").setup({ transparent = true }) -- optional
+			vim.cmd.colorscheme("koda")
+		end,
+	},
+
+	{
+		"LazyVim/LazyVim",
+		opts = {
+			colorscheme = "koda",
+		},
+	},
+}
